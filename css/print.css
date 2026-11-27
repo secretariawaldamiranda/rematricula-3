@@ -1,0 +1,11 @@
+@page { size: A4 portrait; margin: 0; }
+@media print {
+  html,body { margin:0!important; padding:0!important; width:210mm!important; background:white!important; }
+  body * { print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+  .mast,.title-row,.search-card,.editor,.site-foot,.panel-head,.preview-tools,.sheet-footer,.notice,dialog,.symbols,noscript {display:none!important}
+  .shell,.workspace,.preview,.stage,.paper {display:block!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:white!important;overflow:visible!important;max-width:none!important;max-height:none!important}
+  .shell,.workspace,.preview,.stage,.paper,#receipt {width:210mm!important;height:297mm!important}
+  .paper {break-inside:avoid;page-break-inside:avoid}
+  body.paper-overflow .paper {display:none!important}
+  .error {font:14pt Arial;color:black;background:white;margin:20mm;}
+}

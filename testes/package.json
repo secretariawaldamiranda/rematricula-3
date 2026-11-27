@@ -1,0 +1,12 @@
+{
+  "name": "testes-rematricula",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node verificar.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "pdf-lib": "1.17.1"
+  }
+}
